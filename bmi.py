@@ -13,7 +13,8 @@
 
 weight = int(input("Enter weight here\n"))
 height = float(input("Enter Height here in meters\n"))
-bmi = weight / (height * height)
+HeightInMeters = (height / 100) #This line added in response to comments at the end 
+bmi = weight / (HeightInMeters * HeightInMeters)
 print ("bmi is {}".format(bmi))   #https://www.w3schools.com/python/python_string_formatting.asp
 
 #Enter weight here first result below (changes made to Height (1.8))
