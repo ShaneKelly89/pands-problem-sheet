@@ -1,4 +1,4 @@
-# Task 2 Collatz 
+# Task 3 Collatz 
 
 This is task 03, where we are asked to write a program to intake a positive integer and output the successive value of the given calculation. 
  
