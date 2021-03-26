@@ -6,6 +6,9 @@ This is task 02, where we are asked to write a program which will intake a strin
 
 This program will ask the user to input a string variable, and will then output every second letter in reverse order.
 
+The call ``` 
+[::-2]  ``` is used in this program to achieve the required output. 
+
 For the purpose of this task, the user is being asked to enter the following string:
 ```The quick brown fox jumps over the lazy dog.``` 
 
@@ -27,7 +30,7 @@ https://www.w3schools.com/python/python_howto_reverse_string.asp
 https://scipython.com/book/chapter-2-the-core-python-language-i/examples/string-striding/
 
 ## Author
-Shane Kelly
+Shane Kelly 
  
 
  
