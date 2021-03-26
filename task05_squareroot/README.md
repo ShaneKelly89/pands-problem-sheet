@@ -15,7 +15,7 @@ a = float(value)
     return value  
 ```
 
-This was then used to created a function for square root, named 'sqRt' within the program. When a positive integer 
+This was then used to created a function for square root, named 'sqRt' within the program. When a positive integer is entered, the function will produce it's approx. square root.
 
 
 ## Running the Program 
