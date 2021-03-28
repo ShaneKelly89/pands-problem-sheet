@@ -13,7 +13,7 @@ def totalWords():
 
 poem = totalWords()
 #print (poem) was first ran to see if the poem would appear when ran, which it did. 
-#I think use my available resources to find out how to count the total no. of a single letter
+#I then use my available resources to find out how to count the total no. of a single letter
 #https://www.w3schools.com/python/ref_list_count.asp
 
 print(poem.count('e'))
