@@ -5,11 +5,7 @@ The work carried out these problems were first done each week within the 'Progra
 
 # Descprition of Tasks 
 
-# Task 1 Body Mass Index
-
-This is task 01, where we are asked to write a program which will calculate a person's BMI.
-
-## Summary of the program
+## Task 1 Body Mass Index
 
 This is a program that calculate a persons Body Mass Index using their height and weight.
 
@@ -17,7 +13,6 @@ The Program contains the caluculation for BMI: weight divided by height in meter
 ```python
 bmi = weight / (HeightInMeters * HeightInMeters)
 ```
-
 
 As the program asked the user to input their height in centimeters, this number must be divded by 100. When the program is ran (Running the Program) the user will first be asked to enter their weight in kilograms (kg).
 
@@ -33,11 +28,8 @@ py bmi.py
 ```
 Follow the instructions provided in the Summary 
 
-# Task 2 Reverse Second String
+## Task 2 Reverse Second String
 
-This is task 02, where we are asked to write a program which will intake a string, and output every second string in reverse. 
-
-## Summary of the program
 
 This program will ask the user to input a string variable, and will then output every second letter in reverse order.
 
@@ -50,8 +42,6 @@ For the purpose of this task, the user is being asked to enter the following str
 The program will loop through loop through every second letter in the string backwards.
 The expected output is: ```.o zletrv pu o wr ch h```
 
-
-
 ## Running the Program 
 
 ```python
@@ -59,12 +49,9 @@ py secondstring.py
 ```
 Follow the instructions provided in the Summary 
 
-# Task 3 Collatz 
+## Task 3 Collatz 
 
-This is task 03, where we are asked to write a program to intake a positive integer and output the successive value of the given calculation. 
- 
-
-## Summary of the program
+This is program designed to intake a positive integer and output the successive value of the given calculation. 
 When the program is ran (See Running the Program), the user will be asked to enter a positive integer. 
 
 This is a program that will intake any positive integer and output the successive values of the following calculation:
@@ -88,8 +75,6 @@ numberToStop = 1
 while number != numberToStop
 ```
 
-
-
 ## Running the Program 
 
 ```python
@@ -102,9 +87,6 @@ The expected output is: ```10 5 16 8 4 2 1.```
 # Task 4 Weekday or Weekend?
 
 This is task 04, where we are asked to write a program that will compute what day it is and respond to user with a response depending on if it the weekend or a weekday. 
- 
-
-## Summary of the program
 
 This is a program which when ran will out a response based on what day of the week it is. To figure out what day is it, the program utilizes the following code:
 ```python
@@ -126,19 +108,12 @@ elif today in weekday:
 
 The user will simply need to run the program, and the program will output the response depending on whay day of the week it is.
 
-
-
 ## Running the Program 
 ```python
 weekday.py  
 ```
 
 # Task 5 Square Root 
-
-This is task 05, where we are asked to write a program that will take in a positive floating point integer, and output it's approximate square root.  
- 
-
-## Summary of the program
 
 This is a program which takes in a positive floating-point number as input, and outputs the approximation of its square root.
 
@@ -161,13 +136,12 @@ For the purpose of this program, the user is asked to put input the value ```14.
 
 The expected out for this is ```3.8```.
 
-# Task 6 No. of 'e' 
+## Task 6 No. of 'e' 
 
 In this task we are asked to read in a text file, and output the number of e's within that file. For the purpose of this task, I used the poem Sheamus Heaney poem 'Mid Term Break'.\
 https://www.poetryfoundation.org/poems/57041/mid-term-break
 
-## Summary of the Program
-This is a program which reads in a text file, and then output the total number of e's within that file. 
+This progra will read in a text file, and then output the total number of e's within that file. 
 
 First, the txt file 'heaney.txt' was created. This file was then read into the program. 
 
