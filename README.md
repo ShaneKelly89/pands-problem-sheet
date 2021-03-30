@@ -84,7 +84,7 @@ For the purpose of the task, the user is asked to the positive integer ```10.```
 
 The expected output is: ```10 5 16 8 4 2 1.```
 
-# Task 4 Weekday or Weekend?
+## Task 4 Weekday or Weekend?
 
 This is task 04, where we are asked to write a program that will compute what day it is and respond to user with a response depending on if it the weekend or a weekday. 
 
@@ -113,7 +113,7 @@ The user will simply need to run the program, and the program will output the re
 weekday.py  
 ```
 
-# Task 5 Square Root 
+## Task 5 Square Root 
 
 This is a program which takes in a positive floating-point number as input, and outputs the approximation of its square root.
 
