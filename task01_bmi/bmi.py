@@ -12,7 +12,7 @@
 #I will then need to compute the calculation for bmi 
 
 weight = int(input("Enter weight here\n"))
-height = float(input("Enter Height here in meters\n"))
+height = float(input("Enter Height here in centimeters\n"))
 HeightInMeters = (height / 100) #This line added in response to comments at the end 
 bmi = weight / (HeightInMeters * HeightInMeters)
 print ("bmi is {}".format(bmi))   #https://www.w3schools.com/python/python_string_formatting.asp
@@ -24,4 +24,4 @@ print ("bmi is {}".format(bmi))   #https://www.w3schools.com/python/python_strin
 #bmi is 0.002006172839506173
 
 #Trial and error found height is expected to be in meters for this formula 
-#to work. As such, I have changed the user output to ask the user to enter their hight in meters 
+#to work. As such, I made adjustments. 
