@@ -13,7 +13,7 @@ from datetime import datetime
 print(datetime.today().strftime('%A')) #Piece of code found via stackoverflow 
 # https://stackoverflow.com/questions/9847213/how-do-i-get-the-day-of-week-given-a-date
 
-days = ("Monday",
+days = ("Monday",                               #creating tuple containing all days of the week 
             "Tuesday",
             "Wednesday",
             "Thursday",
@@ -30,9 +30,9 @@ weekend = days[5:7]  #coding for weekend via 'days' list
 
 #Need to run a loop through list, and provide response 'weekend' and 'weekday' 
 #https://www.w3schools.com/python/python_conditions.asp
-today = datetime.today().strftime('%A')  
+today = datetime.today().strftime('%A')  #this part of the code is creating a variable containing the code to tell what day it is 
 
-if today in weekend:
+if today in weekend:                      #if statement depending of what day it is 
     print("It is the weekend today!!")
 elif today in weekday:
     print("Today is a weekday, hard luck!")
