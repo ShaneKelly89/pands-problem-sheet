@@ -11,10 +11,10 @@
 
 #I will then need to compute the calculation for bmi 
 
-weight = int(input("Enter weight here\n"))
-height = float(input("Enter Height here in centimeters\n"))
+weight = int(input("Enter weight here\n"))  #coding for weight
+height = float(input("Enter Height here in centimeters\n"))     #coding for height
 HeightInMeters = (height / 100) #This line added in response to comments at the end 
-bmi = weight / (HeightInMeters * HeightInMeters)
+bmi = weight / (HeightInMeters * HeightInMeters)     #creating the calculation for bmu
 print ("bmi is {}".format(bmi))   #https://www.w3schools.com/python/python_string_formatting.asp
 
 #Enter weight here first result below (changes made to Height (1.8))
