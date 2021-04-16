@@ -13,7 +13,7 @@ reverseString = rawString[::-1] #[::-1] loops through the string backwards (-1)
 #please enter a string: The quick brown fox jumps over the lazy dog.
 #Reverse string :.god yzal eht revo spmuj xof nworb kciuq ehT 
 
-reverseString = rawString[::-2] 
+reverseString = rawString[::-2]       #this code will reverse the string and go through every second string 
 print("Reverse string :{}".format(reverseString)) 
 
 #This code can be improved by running: 
