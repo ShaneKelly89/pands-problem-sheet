@@ -52,20 +52,20 @@ This is a program that will intake any positive integer and output the successiv
 When the value to be calculated is even, the next value will be calculated by dividing that number by 2:
 
 ``` python
-if (number % 2) == 0: 
-        number = number / 2
+if (val % 2) == 0: 
+        val = val / 2
 ``` 
 
 When the number is an odd number, the next value will be calculated by multiplying the number by 3 and adding 1:
 ```python
 else:                      
-        number = (number * 3) + 1
+        val = (val * 3) + 1
 ``` 
 
 When the value of the calculation is equal to 1, the program will end: 
 ```python
 numberToStop = 1 
-while number != numberToStop
+while val != numberToStop
 ```
 
 __Running the Program__ 
@@ -163,6 +163,7 @@ py plottask.py
 [https://www.w3schools.com/python/python_howto_reverse_string.asp]()
 [https://scipython.com/book/chapter-2-the-core-python-language-i/examples/string-striding/]()
 [https://www.w3schools.com/python/python_numbers.asp]()
+[https://stackoverflow.com/questions/26198131/check-if-input-is-positive-integer]()
 [https://realpython.com/python-while-loop/]()
 [https://stackoverflow.com/questions/9847213/how-do-i-get-the-day-of-week-given-a-date]()
 [https://www.w3schools.com/python/python_conditions.asp]()

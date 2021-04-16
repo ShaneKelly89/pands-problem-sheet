@@ -8,7 +8,7 @@ number = float(input("Please enter a positive number: "))  #coding for numer use
 
 #How to write code for Newtons method was found using the below link
 #https://medium.com/@sddkal/newton-square-root-method-in-python-270853e9185d
-#Function reading: https://www.w3schools.com/python/python_functions.asp
+#Function reading: )
 
 def sqRt(value, number_iters = 10): #value = number - number_iters is the no of times the value will be itterated
     a = float(value)  

@@ -5,7 +5,7 @@
 #Second, test the code to see if can firstly calculate the total number of letters
 #Then, figure out how to go through the text and output only the total no of times 'e' appears 
 
-filename = "heaney.txt"
+filename = "heaney.txt"    
 def totalWords():
     with open(filename) as f:
         words = str(f.read()) #placed as string here as file is string 
